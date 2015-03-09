@@ -13,6 +13,10 @@ Designing a very simple clone of London's Boris Bikes program.
 * **Van**: takes broken bike from station, drops the broken bike to garage, takes fixed bike from garage, drops fixed bike to station, and has a limited capacity.
 * **Garage**: accepts broken bikes from the van, fixes broken bike, returns fixed bike to van, and has a limited capacity.
 
+###To-Do
+* Implement Van class
+* Implement Garage class
+
 ## What we learnt
 * Introduced to CRC (Class-Responsibility-Collaboration) Card
 * Started coding in Ruby
