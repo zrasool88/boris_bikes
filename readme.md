@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/zrasool88/boris_bikes/badges/gpa.svg)](https://codeclimate.com/github/zrasool88/boris_bikes) [![Test Coverage](https://codeclimate.com/github/zrasool88/boris_bikes/badges/coverage.svg)](https://codeclimate.com/github/zrasool88/boris_bikes)
+[![Code Climate](https://codeclimate.com/github/zrasool88/boris_bikes/badges/gpa.svg)](https://codeclimate.com/github/zrasool88/boris_bikes) [![Test Coverage](https://codeclimate.com/github/zrasool88/boris_bikes/badges/coverage.svg)](https://codeclimate.com/github/zrasool88/boris_bikes) [![Dependency Status](https://gemnasium.com/zrasool88/boris_bikes.svg)](https://gemnasium.com/zrasool88/boris_bikes)
 
 **Week 1 @ Makers Academy**
 
