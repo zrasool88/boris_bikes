@@ -31,7 +31,6 @@ Designing a very simple clone of London's Boris Bikes program.
 * IRB
 
 ## How to Use
-
 1. Clone the repository
 2. Change into the directory
 3. Run IRB

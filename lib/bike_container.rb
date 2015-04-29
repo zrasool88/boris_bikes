@@ -1,8 +1,9 @@
 require_relative 'bike'
 
 module BikeContainer
-
   DEFAULT_CAPACITY = 10
+
+  attr_writer :capacity
 
   def bikes
     @bikes ||= []
@@ -12,16 +13,12 @@ module BikeContainer
     @capacity ||= DEFAULT_CAPACITY
   end
 
-  def capacity=(value)
-    @capacity = value
-  end
-
   def bike_count
     bikes.count
   end
 
   def dock(bike)
-    raise "Station is full" if full?
+    fail 'Station is full' if full?
     bikes << bike
   end
 
@@ -34,10 +31,12 @@ module BikeContainer
   end
 
   def available_bikes
-    bikes.reject {|bike| bike.broken? }
+    bikes.reject(&:broken?)
   end
 
   def retrieve_working_bikes_from(container)
-    container.bikes.each{|bike| dock(container.release(bike))} unless bike.broken?
+    container.bikes.each do |bike|
+      dock(container.release(bike)) unless bike.broken?
+    end
   end
 end
