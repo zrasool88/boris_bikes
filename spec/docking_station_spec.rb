@@ -1,4 +1,5 @@
 require 'docking_station'
+require 'spec_helper'
 
 describe DockingStation do
   let(:station) { DockingStation.new(capacity: 50) }

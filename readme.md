@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/zrasool88/boris_bikes/badges/gpa.svg)](https://codeclimate.com/github/zrasool88/boris_bikes)
+
 **Week 1 @ Makers Academy**
 
 # Introduction to Object Oriented Programming and Ruby
