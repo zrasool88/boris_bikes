@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :test do
   gem 'rspec'
-  gem 'codeclimate-test-reporter', require: nil
+  gem 'codeclimate-test-reporter', '>=0.4.7', require: nil
 end
 
 group :development do
